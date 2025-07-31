@@ -189,7 +189,7 @@ class TypeWriter {
 function initTypewriter() {
   const txtElement = document.querySelector('.typewriter');
   if (txtElement) {
-    const words = ['Web Developer','Frontend Developer' ,'Java Programmer'];
+    const words = ['Web Developer','Frontend Developer' ,'Java Programmer' , 'Mern Stack Developer'];
     new TypeWriter(txtElement, words, 2000);
   }
 }
